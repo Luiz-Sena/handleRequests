@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "5b1092ee-27f1-4bd6-8f11-518142db551f",
+		"name": "handleRequests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25459509"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/employee",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/employee",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Fabio",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/employee/enrollment",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/employee/enrollment/123",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee",
+						"enrollment",
+						"123"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Fabio",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/employee",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/employee/enrollment/123?name=Fabio",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"employee",
+						"enrollment",
+						"123"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Fabio"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
